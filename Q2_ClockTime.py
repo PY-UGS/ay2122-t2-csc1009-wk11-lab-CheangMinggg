@@ -32,8 +32,8 @@ def main():
 
     while True:
         try:
-            h = int(input("Enter hours in 24h format (value 0-23): "))
-            if h >= 0 and h <= 23:  #  make sure in the correct 24hr format for hours (0-23)
+            h = int(input("Enter hours in 24h format (value 0-23): ")) #make sure in the correct 24hr format for hours (0-23)
+            if h >= 0 and h <= 23:  
                 break
             print("Incorrect Format!")
             
@@ -42,8 +42,8 @@ def main():
 
     while True:
         try:
-            m = int(input("Enter minutes in 24h format (value 0-59): ")) 
-            if m >= 0 and m <= 59:  # make sure in the correct 24hr format for minutes (0-59)
+            m = int(input("Enter minutes in 24h format (value 0-59): ")) #make sure in the correct 24hr format for minutes (0-59)
+            if m >= 0 and m <= 59:  
                 break
             print("Incorrect Format!")
             
@@ -52,8 +52,8 @@ def main():
 
     while True:
         try:
-            s = int(input("Enter seconds in 24h format (value 0-59): "))
-            if s >= 0 and s <= 59:  #  make sure in the correct 24hr format for seconds (0-59)
+            s = int(input("Enter seconds in 24h format (value 0-59): ")) #make sure in the correct 24hr format for seconds (0-59)
+            if s >= 0 and s <= 59:  
                 break
             print("Incorrect Format!")
             
