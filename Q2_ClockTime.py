@@ -36,15 +36,15 @@ def main():
 
     while input_hours < 0 or input_hours >23:
 
-        input_hours = int(input("Enter in clock hours: "))
+        input_hours = int(input("Enter in hours: "))
 
     while input_min < 0 or input_min > 59:
 
-        input_min = int(input("Enter in clock minutes: "))
+        input_min = int(input("Enter in minutes: "))
 
     while input_seconds < 0 or input_seconds > 59:
 
-        input_seconds = int(input("Enter in clock seconds: "))
+        input_seconds = int(input("Enter in seconds: "))
 
     clock.setTime(input_hours,input_min,input_seconds)
     clock.showTime()
