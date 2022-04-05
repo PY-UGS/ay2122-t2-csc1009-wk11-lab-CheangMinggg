@@ -36,6 +36,7 @@ def main():
             if h >= 0 and h <= 23:  #  make sure in the correct 24hr format for hours (0-23)
                 break
             print("Incorrect Format!")
+            
         except Exception as e:
             print(e)
 
@@ -45,6 +46,7 @@ def main():
             if m >= 0 and m <= 59:  # make sure in the correct 24hr format for minutes (0-59)
                 break
             print("Incorrect Format!")
+            
         except Exception as e:
             print(e)
 
@@ -54,6 +56,7 @@ def main():
             if s >= 0 and s <= 59:  #  make sure in the correct 24hr format for seconds (0-59)
                 break
             print("Incorrect Format!")
+            
         except Exception as e:
             print(e)
 
